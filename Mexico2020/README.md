@@ -1,3 +1,3 @@
-# Mexico's budget for 2020.
+# Sankey Diagram for Mexico's budget 2020.
 
 
