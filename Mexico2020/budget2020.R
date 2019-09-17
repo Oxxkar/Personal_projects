@@ -25,7 +25,7 @@ budget$IDtarget <- match(budget$Objetivo, nodes$name)-1
 
 
 # Make the Network
-p <- sankeyNetwork(Links = presupuesto, Nodes = nodes,
+p <- sankeyNetwork(Links = budget, Nodes = nodes,
                    Source = "IDsource", Target = "IDtarget",
                    Value = "Valor", NodeID = "name",
                    sinksRight=F,fontSize = 12)
